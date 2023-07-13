@@ -1,0 +1,112 @@
++1  sudo apt-get update -y
++    2  clear
++    3  apt-get install apt-transport-https
++    4  apt install docker.io -y
++    5  clear
++    6  systemctl enable docker
++    7  curl sudo -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add 
++    8  nano /etc/apt/sources.list.d/kubernetes.list
++    9  apt-get update
++   10  apt-get install -y kubelet kubeadm kubectl kubernetes-cni
++   11  clear
++   12  kubeadm init
++   13  mkdir -p $HOME/.kube
++   14  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
++   15  sudo chown $(id -u):$(id -g) $HOME/.kube/config
++   16  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
++   17  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/k8s-manifests/kube-flannel-rbac.yml
++   18  clear
++   19  kubectl get node
++   20  sudo apt update && apt -y install docker.io
++   21  curl -LO https://storage.googleapis.com/kubern... -s https://storage.googleapis.com/kubern... && chmod +x ./kubectl && sudo mv ./kubectl /usr/local/bin/kubectl
++   22  clear
++   23  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && chmod +x ./kubectl && sudo mv ./kubectl /usr/local/bin/kubectl
++   24  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin
++   25  apt install conntract
++   26  apt install conntrack
++   27  minikube start --vm-driver=none
++   28  sudo apt-get install https://github.com/Mirantis/cri-dockerd -y
++   29  ls
++   30  sudo apt-get install install cri-dockerd 
++   31  ls
++   32  vi kubern... 
++   33  cd kubern... 
++   34  ls
++   35  sudo apt-get install cri-dockerd 
++   36  sudo apt install https://github.com/Mirantis/cri-dockerd 
++   37  clear
++   38  minikube start --vm-driver=none
++   39  sudo apt update -y
++   40  sudo aptget upgrade -y
++   41  sudo apt-get upgrade -y
++   42  ls
++   43  minikube start --vm-driver=none
++   44  clear
++   45  minikube status
++   46  apt install conntrack
++   47  sudo apt list --upgradable
++   48  sudo apt-get install linux-aws/focal-updates,focal-security 5.15.0.1039.44~20.04.28 amd64 [upgradable from: 5.15.0.1036.40~20.04.25]
++   49  sudo apt-get install linux-aws
++   50  sudo apt-get install linux-headers-aws
++   51  sudo apt-get install linux-image-aws
++   52  apt install conntrack 
++   53  minikube start --vm-driver=none
++   54  minikube status
++   55  wget https://github.com/kubernetes/minikube/issues/6391
++   56  ls
++   57  cd 6391 
++   58  ls
++   59  sudo apt-get install 6391 -y
++   60  vi 6391 
++   61  apt install 6391 
++   62  sudo apt update -y
++   63  ls
++   64  apt install 6391 
++   65  clear
++   66  ls
++   67  mv 6391 package
++   68  ls
++   69  sdp apt install package 
++   70  mv package  6391
++   71  ls
++   72  sudo apt install 6391  0y
++   73  sudo apt install 6391 -y
++   74  tree
++   75  sudo apt install tree
++   76  tree
++   77  clear
++   78  sduo apt update 6391 
++   79  sudo apt install 6391 
++   80  minikube start --vm-driver=none
++   81  minikube status
++   82  minikube start --vm-driver=none
++   83  cd /tmp/juju-mkc8ab01ad3ea83211c505c81a7ee49a8e3ecb89 
++   84  vi /tmp/juju-mkc8ab01ad3ea83211c505c81a7ee49a8e3ecb89 
++   85  kubectl get nodes
++   86  clear
++   87  ls
++   88  clear
++   89  kubectl get nodes
++   90  kubectl describe node ip-172-31-43-32
++   91  clear
++   92  vi pod1.yml
++   93  kubectl apply -f pod1.yml 
++   94  kubectl get pod
++   95  kubectl get pods
++   96  kubectl start pod1.yml 
++   97  kubectl enable pod1.yml 
++   98  kubectl get pods
++   99  ls
++  100  vi pod1.yml 
++  101  kubectl apply -f pod1.yml 
++  102  clear
++  103  kubectl apply -f pod1.yml 
++  104  kubectl get pods
++  105  clear
++  106  kubectl get pods
++  107  vi pod1.yml 
++  108  ls
++  109  kubectl get pods
++  110  clear
++  111  ls
++  112  kubectl apply -f pod1.yml
